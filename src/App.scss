@@ -1,0 +1,317 @@
+$principal: rgba(0, 128, 0, 0.445);
+$texto: greenyellow;
+
+
+.header{
+    margin: 0 2em;
+    padding: 2em 0;
+        
+        header{
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2em;
+            color: $texto;
+            
+                .titulos{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+                    
+                    
+                        h1{
+                            font-size: 5em;
+                            cursor: pointer;
+                        }
+
+                        h2{
+                            font-size: 2em;
+                            cursor: pointer;
+                        }
+                }
+                
+
+                nav{
+                    padding: 2em 0;
+
+                        ul{
+                        display: flex;
+                        list-style: none;
+                        justify-content: space-around;
+
+                            li{
+                                padding: 1em;
+
+                                    a{
+                                        color: greenyellow;
+                                        text-decoration: none;
+                                        font-weight: 700;
+                                        font-size: 1.5em;
+                                    }
+
+                                    a:hover{
+                                        border-bottom: 4px solid greenyellow;
+                                    }
+                            }
+                }
+                }
+
+        }
+}
+
+
+.form_imagen{
+    background-image: url(../public/food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em;
+
+        .form{
+            margin: 2em 0;
+            padding: 4em 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(0, 128, 0, 0.336);
+
+                h3{
+                    font-size: 3em;
+                    color: white;
+                    text-align: center;
+                }
+
+                form{
+                    background-color: rgba(0, 128, 0, 0.774);
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2em 4em;
+
+                        input{
+                            margin: 1em 0;
+                            padding: 1em;
+                            border: none;
+                            background-color: rgba(0, 128, 0, 0.705);
+                            font-size: 1em;
+                            color: white;
+                        }
+
+                        ::placeholder{
+                            color: rgba(255, 255, 255, 0.63);
+                            font-size: 1.2em;
+                        }
+
+                        input:hover{
+                            background-color: rgb(15, 112, 15);
+                        }
+
+                        button{
+                            margin: 1em 0;
+                            padding: 0.5em;
+                            border: none;
+                            background-color: rgba(0, 128, 0, 0.705);
+                            color: rgba(255, 255, 255, 0.63);
+                            font-size: 1.2em;
+                            cursor: pointer;
+                        }
+
+                        button:hover{
+                            background-color: rgb(15, 112, 15);
+                        }
+                }
+        }
+    
+}
+
+
+.ofertas{
+    background-color: green;   
+    margin: 4em 2em;
+
+
+    .titulo{
+        font-size: 3em;
+        text-align: center;
+        padding: 1em 0 1em 0;
+        color: $texto;
+    }
+    
+    .carrusel{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+.testimonios{
+    margin: 0em 2em;
+    background-color: green;  
+
+        .titulo{
+            font-size: 3em;
+            text-align: center;
+            padding: 1em 0 1em 0;
+            color: $texto;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+}
+
+.redes{
+    text-decoration: none;
+    margin: 4em 2em;
+
+        .titulo{
+            font-size: 3em;
+            text-align: center;
+            padding: 1em 0 1em 0;
+            color: $texto;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+                li{
+                    margin: 0 10px;
+                        a{
+                            color: $texto;
+                            text-decoration: none;
+                            font-weight: 700;
+                            font-size: 1.2em;
+
+                                img{
+                                    width: 60px;
+                                    height: 60px;
+                                }
+                        }
+                }
+            }
+}
+
+footer{
+    background-color: $principal;
+    margin: 4em 0em 0 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+
+        .texto{
+            color: $texto;
+            text-align: center;
+            width: 50%;
+            
+                h2{
+                    font-size: 3em;
+                    cursor: pointer;
+                }
+
+                p{
+                    font-size: 1.8em;
+                }
+        }
+
+        nav{
+            padding: 2em 0;
+            width: 50%;
+
+                ul{
+                list-style: none;
+                text-align: center;
+
+                    li{
+                            a{
+                                color: $texto;
+                                text-decoration: none;
+                                font-weight: 700;
+                                font-size: 1.4em;
+                            }
+                    }
+                }
+        }
+}
+
+
+
+
+@media screen and (max-width: 1440px){
+    .form_imagen{
+        .form{
+        flex-direction: column;
+        
+            form{
+                padding: 1em 2em;
+                margin: 1em 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .header{
+        header{
+            nav{
+                ul{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .testimonios{
+        margin: 0em 0em;
+        background-color: green;  
+    
+            .titulo{
+                font-size: 3em;
+                text-align: center;
+                padding: 1em 0 1em 0;
+                color: $texto;
+            }
+    
+            .container{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: justify;
+            }
+    }
+
+    footer{
+        .texto{
+            font-size: 8px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .form_imagen{
+        .form{
+
+            h3{
+                font-size: 30px;
+            }
+        
+            form{
+                padding: 1em 0.5em;
+                margin: 1em 0;
+            }
+        }
+    }
+}
+
+
+
+

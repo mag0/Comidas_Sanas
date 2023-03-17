@@ -1,0 +1,33 @@
+$principal: rgba(0, 128, 0, 0.445);
+$texto: greenyellow;
+
+.testimonio{
+    padding: 0 2em;
+    background-color:  rgb(22, 88, 22);
+    margin: 0 2em 2em 2em;
+    border-radius: 10px;
+    color: $texto;
+    cursor: pointer;
+
+        .usuario{
+            display: flex;
+            flex-direction: column;
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                    margin: 20px 0;
+                    border-radius: 10px;
+                }
+
+                h5{
+                    margin-bottom: 20px;
+                    font-size: 1.2em;
+                }
+        }
+
+        .texto{
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+}

@@ -1,0 +1,35 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(211, 252, 210);
+}
+
+.body{
+    background-color: rgba(0, 128, 0, 0.774);
+    margin: 0 20rem;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+  .body{
+      margin: 0 15rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .body{
+      margin: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body{
+      margin: 0;
+  }
+}

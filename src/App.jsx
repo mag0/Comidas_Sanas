@@ -58,10 +58,10 @@ function App () {
           <section className='redes'>
             <h3 className='titulo' id='redes'>¡Siguenos!</h3>
             <ul>
-              <li><a href='#'><img src='../public/facebook.png' alt='facebook' /></a></li>
-              <li><a href='#'><img src='../public/instagram.png' alt='facebook' /></a></li>
-              <li><a href='#'><img src='../public/twitter.png' alt='facebook' /></a></li>
-              <li><a href='#'><img src='../public/whatsapp.png' alt='facebook' /></a></li>
+              <li><a href='#'><img src='public/facebook.png' alt='facebook' /></a></li>
+              <li><a href='#'><img src='public/instagram.png' alt='facebook' /></a></li>
+              <li><a href='#'><img src='public/twitter.png' alt='facebook' /></a></li>
+              <li><a href='#'><img src='public/whatsapp.png' alt='facebook' /></a></li>
             </ul>
           </section>
 

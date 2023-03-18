@@ -1,29 +1,75 @@
 [
     {
         "id" : "1",
-        "imagen" : "crema-de-puerros",
-        "nombre" : "Crema de puerros"
-    },
-    {
-        "id" : "1",
         "imagen" : "alcachofas-al-horno-con-pico-de-gallo",
-        "nombre" : "Alcachofas al horno con pico de gallo"
+        "nombre" : "ALCACHOFAS AL HORNO CON PICO DE GALLO"
     },
     {
-        "id" : "1",
+        "id" : "2",
         "imagen" : "arroz-basmati-salteado-con-heura-y-verduras-variadas-al-curry",
-        "nombre" : "Arroz basmati salteado con heura y verduras variadas al curry"
+        "nombre" : "ARROZ BASMATI SALTEADO CON HEURA Y VERDURAS VARIADAS AL CURRY"
     },
     {
-        "id" : "1",
-        "imagen" : "berenjenas-rellenas",
-        "nombre" : "Berenjenas rellenas"
+        "id" : "3",
+        "imagen" : "tataki-de-atun",
+        "nombre" : "TATAKI DE ATÚN"
     },
     {
-        "id" : "1",
+        "id" : "4",
+        "imagen" : "merluza-al-vapor-a-la-gallega",
+        "nombre" : "MERLUZA AL VAPOR A LA GALLEGA"
+    },
+    {
+        "id" : "5",
         "imagen" : "curry-de-tirabeques-y-esparragos-con-leche-de-coco-y-arroz-basmati",
-        "nombre" : "Curry de tirabeques y esparragos con leche de coco y arroz basmati"
+        "nombre" : "CURRY DE TIRABEQUES Y ESPÁRRAGOS CON LECHE DE COCO Y ARROZ BASMATI"
+    },
+    {
+        "id" : "6",
+        "imagen" : "crema-de-puerros",
+        "nombre" : "CREMA DE PUERROS Y GUISANTES"
+    },
+    {
+        "id" : "7",
+        "imagen" : "guiso-espinacas",
+        "nombre" : "GUISO DE BACALAO CON ALUBIAS Y ACELGAS"
+    },
+    {
+        "id" : "8",
+        "imagen" : "pescado-al-horno",
+        "nombre" : "BACALAO CON HABAS Y ESPÁRRAGOS"
+    },
+    {
+        "id" : "9",
+        "imagen" : "tosta-de-salmon-y-aguacate",
+        "nombre" : "TOSTA DE SALMÓN CON GUACAMOLE"
+    },
+    {
+        "id" : "10",
+        "imagen" : "tartan-de-salmon",
+        "nombre" : "TARTAR DE SALMÓN"
+    },
+    {
+        "id" : "11",
+        "imagen" : "hamburguesa-guisantes",
+        "nombre" : "MINITORTITAS DE GUISANTES"
+    },
+    {
+        "id" : "11",
+        "imagen" : "ramen-vegano",
+        "nombre" : "RAMEN VEGANO"
+    },
+    {
+        "id" : "11",
+        "imagen" : "verduras-huevo-poche",
+        "nombre" : "VERDURAS AL HORNO CON HUEVO POCHÉ"
+    },
+    {
+        "id" : "11",
+        "imagen" : "hamburguesa-guisantes",
+        "nombre" : "MINITORTITAS DE GUISANTES"
     }
+    
 ]
 
 

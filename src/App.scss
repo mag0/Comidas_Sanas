@@ -96,11 +96,12 @@ $texto: greenyellow;
                             background-color: rgba(0, 128, 0, 0.705);
                             font-size: 1em;
                             color: white;
+                            outline: none;
                         }
 
                         ::placeholder{
                             color: rgba(255, 255, 255, 0.63);
-                            font-size: 1.2em;
+                            font-size: 1em;
                         }
 
                         input:hover{
